@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("https://www.bhmpics.com/downloads/16-10-wallpaper-/4.dmdikcywsaeskdj.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0 , 0.3);
+    background: rgba(164, 222, 255, 0.685);
+    border-radius: 10%;
+
+}
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 200px;
+    height: 180px;
+    background-color: whitesmoke;
+    opacity: .8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0 ,0.3);
+
+}
+
+.clock .text{
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: gray;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: rgb(130, 169, 255);
+}
